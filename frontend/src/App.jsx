@@ -20,7 +20,7 @@ export default function App() {
           <Link to="/project" className="text-gray-700 hover:text-blue-600 font-medium">
             Project Details
           </Link>
-          <Link to="/login" className="text-gray-700 hover:text-blue-600 font-medium">
+          <Link to="/Login" className="text-gray-700 hover:text-blue-600 font-medium">
             Login
           </Link>
           <Link to="/signup" className="text-gray-700 hover:text-blue-600 font-medium">
@@ -51,7 +51,7 @@ export default function App() {
                     View Project Detailsa
                   </Link>
                   <Link
-                    to="/login"
+                    to="/Login"
                     className="px-6 py-3 bg-gray-200 rounded-lg shadow hover:bg-gray-300"
                   >
                     Login
@@ -61,7 +61,7 @@ export default function App() {
             }
           />
           <Route path="/project" element={<ProjectDetails />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
          <Route path="/student-dashboard" element={<StudentDashboard />} />
          <Route path="/institution-dashboard" element={<InstitutionDashboard />} />
