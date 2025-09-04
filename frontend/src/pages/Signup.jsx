@@ -13,7 +13,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-          const res = await fetch("http://smart-scheduler-srsu.onrender.com/api/auth/Signup" ,
+          const res = await fetch("https://smart-scheduler-srsu.onrender.com/api/auth/Signup" ,
             {    
              method: "POST",
         headers: { "Content-Type": "application/json" },

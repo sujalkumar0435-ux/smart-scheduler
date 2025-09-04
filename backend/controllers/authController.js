@@ -17,7 +17,7 @@ const writeUsers = (users) => {
 };
 
 // Signup
-export const signup = async (req, res) => {
+export const Signup = async (req, res) => {
   const { email, password, role } = req.body;
   let users = readUsers();
 
@@ -33,7 +33,7 @@ export const signup = async (req, res) => {
 };
 
 // Login
-export const login = async (req, res) => {
+export const Login = async (req, res) => {
   const { email, password } = req.body;
   let users = readUsers();
 
