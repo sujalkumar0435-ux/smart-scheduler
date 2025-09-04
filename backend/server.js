@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { signup, login } from "./controllers/authController.js";
+import { Signup, Login } from "./controllers/authController.js";
 
 dotenv.config();
 const app = express();
@@ -11,8 +11,8 @@ app.use(cors({ origin: "*" }));
 const PORT = process.env.PORT || 5000;
 
 // Routes
-app.post("/api/auth/signup", signup);
-app.post("/api/auth/login", login);
+app.post("/api/auth/Signup", Signup);
+app.post("/api/auth/Login", Login);
 
 
 app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
