@@ -1,0 +1,17 @@
+[
+  {
+    "email": "sujal@gmail.com",
+    "password": "$2a$10$ChJPx0o23HB.G4Ggsdfxpu5ZB6oMm4BmKz6gktYnZKEPFhsh9yu4O",
+    "role": "student"
+  },
+  {
+    "email": "ujal@gmail.com",
+    "password": "$2a$10$HfFFZFX3BXIydp/p2sXkfOsrUPAGCVXBcfhJrXKIfNWfQZomgUKDO",
+    "role": "institution"
+  },
+  {
+    "email": "a@gmail.com",
+    "password": "$2a$10$th9COXAFp2cms2c5XhMM6uRuM8M3F/63AUk14FnclMOk.b35l0y9a",
+    "role": "institution"
+  }
+]
