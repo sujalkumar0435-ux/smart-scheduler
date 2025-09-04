@@ -2,7 +2,7 @@ import fs from "fs";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import path from "path";
-l
+
 const USERS_FILE = path.join("./data", "users.json");
 
 // helpers
