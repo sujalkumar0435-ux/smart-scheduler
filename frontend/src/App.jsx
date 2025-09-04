@@ -2,7 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
 import Login from "./pages/Login";
 
-import Signup from "./pages/Signup◘";
+import Signup from "./pages/Signup";
 
 import InstitutionDashboard from "./pages/Institution-dashboard";
 import StudentDashboard from "./pages/Student-dashboard";
@@ -62,7 +62,7 @@ export default function App() {
           />
           <Route path="/project" element={<ProjectDetails />} />
           <Route path="/Login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/Signup" element={<Signup />} />
          <Route path="/student-dashboard" element={<StudentDashboard />} />
          <Route path="/institution-dashboard" element={<InstitutionDashboard />} />
    
