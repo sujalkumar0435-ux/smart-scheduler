@@ -18,7 +18,7 @@ export default function App() {
             Home
           </Link>
           <Link to="/project" className="text-gray-700 hover:text-blue-600 font-medium">
-            Project Details
+            Project Detail
           </Link>
           <Link to="/Login" className="text-gray-700 hover:text-blue-600 font-medium">
             Login
