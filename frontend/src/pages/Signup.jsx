@@ -13,7 +13,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-          const res = await fetch("http://localhost:5000/api/auth/signup" ,
+          const res = await fetch("http://localhost:5000/api/auth/Signup" ,
             {    
              method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -24,7 +24,7 @@ export default function Signup() {
 
       if (res.ok) {
         setMessage("✅ Registered successfully! You can login now.");
-        setTimeout(() => navigate("/login"), 1500);
+        setTimeout(() => navigate("/Login"), 1500);
       } else {
         setMessage(data.error || "Signup failed");
       }
