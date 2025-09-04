@@ -32,9 +32,9 @@ export default function Login() {
         localStorage.setItem("email", data.email);
 
        if (data.role === "student") {
-        navigate("/student-dashboard"); // student dashboard
+        navigate("/Student-dashboard"); // student dashboard
        } else if (data.role === "institution") {
-       navigate("/institution-dashboard"); // institution dashboard
+       navigate("/Institution-dashboard"); // institution dashboard
        }
       } else {
         setError(data.error || "Invalid credentials");

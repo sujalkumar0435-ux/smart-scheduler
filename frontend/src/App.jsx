@@ -1,11 +1,11 @@
 import { Routes, Route, Link } from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
 import Login from "./pages/Login";
-// import Dashboard from "./pages/Dashboard";
-import Signup from "./pages/signup";
-// import Dashboard from "./pages/Dashboard";
-import InstitutionDashboard from "./pages/institution-dashboard";
-import StudentDashboard from "./pages/student-dashboard";
+
+import Signup from "./pages/Signup◘";
+
+import InstitutionDashboard from "./pages/Institution-dashboard";
+import StudentDashboard from "./pages/Student-dashboard";
 
 export default function App() {
   return (
