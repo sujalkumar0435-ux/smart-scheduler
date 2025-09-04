@@ -4,8 +4,8 @@ import Login from "./pages/Login";
 
 import Signup from "./pages/Signup";
 
-import InstitutionDashboard from "./pages/Institution-dashboard";
-import StudentDashboard from "./pages/Student-dashboard";
+import InstitutionDashboard from "./pages/InstitutionDashboard";
+import StudentDashboard from "./pages/StudentDashboard";
 
 export default function App() {
   return (
@@ -63,8 +63,8 @@ export default function App() {
           <Route path="/project" element={<ProjectDetails />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
-         <Route path="/student-dashboard" element={<StudentDashboard />} />
-         <Route path="/institution-dashboard" element={<InstitutionDashboard />} />
+         <Route path="/StudentDashboard" element={<StudentDashboard />} />
+         <Route path="/InstitutionDashboard" element={<InstitutionDashboard />} />
    
         </Routes>
       </main>
