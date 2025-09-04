@@ -22,11 +22,11 @@ export default function Login() {
       const data = await res.json();
 
       if (res.ok) {
-       if (data.role !== role) {
-          // Agar selected role aur backend role same nahi hai → error
-          setError("⚠️ Role does not match with account details");
-          return;
-        }
+      //  if (data.role !== role) {
+      //     // Agar selected role aur backend role same nahi hai → error
+      //     setError("⚠️ Role does not match with account details");
+      //     return;
+      //   }
         localStorage.setItem("token", data.token);
         localStorage.setItem("role", data.role);
         localStorage.setItem("email", data.email);
