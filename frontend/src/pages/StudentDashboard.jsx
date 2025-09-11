@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 export default function StudentDashboard() {
   const [student, setStudent] = useState(null);
 
-  useEffect(() => {
-    fetch("/data.json")
+useEffect(() => {
+    fetch("/data.json") // ye automatically public/ se serve hoga
       .then((res) => res.json())
       .then((data) => setStudent(data.student1))
-      .catch((err) => console.error(err));
+      .catch((err) => console.error("Error fetching JSON:", err));
   }, []);
 
   if (!student) return <p className="p-6 text-gray-500">Loading...</p>;

@@ -2,7 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
 import Login from "./pages/Login";
 
-import Signup from "./pages/Signup";
+import Signup from "./pages/signup";
 
 import InstitutionDashboard from "./pages/InstitutionDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
